@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebDev Portfolio</title>
+        <link rel=icon href=favicon.png type="image/png" > 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <p><img src="devshivam.png" alt="logo"></p> 
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="#blog" class="nav__link">Blogs</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                 <span style="text-decoration:overline;  text-decoration-color: #16e0bd" ><strong class="i">I'm</strong></span><strong >  Shivam</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Developer </p>
+            <img src="hero-img.png" alt="smiley" class="intro__img">
+        </section>
+
+
+        <!-- My services -->
+        <section class="my-services" id="skills">
+            <h2 class="section__title section__title--services">Skills</h2>
+            <div class="services">
+                <div class="skills">
+                    <i class="fa fa-code"></i>
+                    <h3>web development</h3>
+                    <p>Familiar with Frontend technologies <br> like JavaScript, React.JS, HTML5, CSS3, Sass and <br> Backend Technologies<br>like Node, Strapi and Django.</p>
+                    
+                </div> <!-- / service -->
+                
+                <div class="skills">
+                    <i class="	fa fa-brain"></i>
+                    <h3>Problem Solving</h3>
+                    <p>Problem Solving, <br> Logical Thinking and <br> Creativity.</p>
+                </div> <!-- / service -->
+                
+                <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">Passionate About coding and Tech</p>
+            
+            <div class="about-me__body">
+                <p>I am Shivam, Love to code. I have a habit of reading current trends and startups. I am a quick learner and believe in learning from my past mistakes. This is a virtue as it can take me ahead in both my professional and personal life.</p>
+            </div>
+ 
+            <div className="clr">
+              
+               <p> <mark> <b>JavaScript, React.JS, MongoDB, p5.JS, HTML5, CSS3, Sass, Java, Gatsby, Strapi, Webflow </b></mark></p>
+            </div>
+            
+            <img src="shivam.png" alt="Jane leaning against a bus" class="about-me__img">
+         </section>
+
+
+
+        <!-- Experience -->
+        <section class="my-services" id="experience">
+            <h2 class="section__title section__title--services">Experience</h2>
+            <div class="services">
+               
+                <div class="service">
+                    
+                    <h3>Engineering Intern: Fomax Information Technologies (July 2019 - August 2019)</h3>
+                    <h5> <i class="	fa fa-angle-double-right"></i> Worked on MEAN stack and build a project using it</h5>
+                    <h5> <i class="	fa fa-angle-double-right"></i> Learned about Development and Operations</h5>
+                    <h5> <i class="	fa fa-angle-double-right"></i> Learned to deploy the Node application</h5>
+                    <h5> <i class="	fa fa-angle-double-right"></i> Learned to create REST APIs using Node.JS and tested using postman </h5>
+                </div> <!-- / service -->
+                
+            </div> <!-- / services -->
+            
+            <a href="http://www.fomaxtech.com/" class="btn">About Company</a>
+        </section>
+        
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="http://react-memories-app.netlify.app/" class="portfolio__item">
+                    <img src="projects-1.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="http://well-wisher-card.netlify.app/" class="portfolio__item">
+                    <img src="projects-2.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://smileyshivam.github.io/movies-info" class="portfolio__item">
+                    <img src="projects-3.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="http://react-tourist-places.netlify.app/" class="portfolio__item">
+                    <img src="projects-4.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="https://react-covid-19-tracker-application.netlify.app/" class="portfolio__item">
+                    <img src="projects-5.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="https://github.com/SmileyShivam/view-lyrics" class="portfolio__item">
+                    <img src="projects-7.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="http://simple-bday-remainder.netlify.app/" class="portfolio__item">
+                    <img src="projects-6.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <section class="my-blog" id="blog">
+            <h2 class="blog">Blogs</h2>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://dev.to/smileyshivam/react-hooks-basics-3n71" class="portfolio__item">
+                    <img src="react.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="https://dev.to/smileyshivam/saas-5ead" class="portfolio__item">
+                    <img src="sass.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://dev.to/smileyshivam/deploy-a-full-stack-mern-app-using-netlify-and-heroku-9da" class="portfolio__item">
+                    <img src="deploy.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://dev.to/smileyshivam/15-things-to-do-after-college-instead-of-getting-a-real-job-340m" class="portfolio__item">
+                    <img src="nature.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            
+            <div class="footer__link"> smileyshivam3042@gmail.com </div>
+            <div class="footer__link">+91 9110648553</div>
+            <ul class="social-list">
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/SmileyShivam", target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://dev.to/smileyshivam", target="_blank">
+                        <i class="fab fa-dev"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/smileyshivam3042", target="_blank">
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/shivam-kumar-1312771b5/", target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/_toxic_smiley", target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="main.js"></script>
+        
+    </body>
+</html>
